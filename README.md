@@ -48,7 +48,6 @@
   - [固件预览](#固件预览)
   - [版权说明](#版权说明)
   - [项目支持](#项目支持)
-  - [Stargazers over time](#stargazers-over-time)
 
 <br>
 
@@ -170,9 +169,6 @@ filetree
 - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 - [luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon)
-
-## Stargazers over time
-[![Stargazers over time](https://starchart.cc/jlqwer/OpenWrts.svg)](https://starchart.cc/jlqwer/OpenWrts)
 
 <!-- links -->
 [your-project-path]:https://github.com/jlqwer/OpenWrts/
