@@ -12,22 +12,22 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/bigbugcc/OpenWrts">
+  <a href="https://github.com/jlqwer/OpenWrts">
     <img src="https://cdn.jsdelivr.net/gh/bigbugcc/Resource@master/github/openwrts/action1.jpg" alt="Logo" width="500" />
   </a>
 
   <h3 align="center">Openwrt/LEDE 云编译</h3>
   <p align="center">
-    👉 每天定时自动拉取Openwrt最新源码编译，自动发布到 [<a herf="https://github.com/bigbugcc/OpenWrts/releases"> Releases </a>]👈
+    👉 每天定时自动拉取Openwrt最新源码编译，自动发布到 [<a herf="https://github.com/jlqwer/OpenWrts/releases"> Releases </a>]👈
     <br />
-    <a href="https://github.com/bigbugcc/OpenWrts"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://github.com/jlqwer/OpenWrts"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/bigbugcc/OpenWrts/releases">下载地址</a>
+    <a href="https://github.com/jlqwer/OpenWrts/releases">下载地址</a>
     ·
-    <a href="https://github.com/bigbugcc/OpenWrts/actions">Action</a>
+    <a href="https://github.com/jlqwer/OpenWrts/actions">Action</a>
     ·
-    <a href="https://github.com/bigbugcc/OpenWrts/issues">提出新特性</a>
+    <a href="https://github.com/jlqwer/OpenWrts/issues">提出新特性</a>
   </p>
 
 </p>
@@ -159,7 +159,7 @@ filetree
 
 ## 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/bigbugcc/OpenWrts/LICENSE)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/jlqwer/OpenWrts/LICENSE)
 
 <br>
 
@@ -172,17 +172,17 @@ filetree
 - [luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon)
 
 ## Stargazers over time
-[![Stargazers over time](https://starchart.cc/bigbugcc/OpenWrts.svg)](https://starchart.cc/bigbugcc/OpenWrts)
+[![Stargazers over time](https://starchart.cc/jlqwer/OpenWrts.svg)](https://starchart.cc/jlqwer/OpenWrts)
 
 <!-- links -->
-[your-project-path]:https://github.com/bigbugcc/OpenWrts/
-[contributors-shield]: https://img.shields.io/github/contributors/bigbugcc/OpenWrts?style=flat-square
-[contributors-url]: https://github.com/bigbugcc/OpenWrts/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/bigbugcc/OpenWrts?style=flat-square
-[forks-url]: https://github.com/bigbugcc/OpenWrts/network/members
-[stars-shield]: https://img.shields.io/github/stars/bigbugcc/OpenWrts?style=flat-square
-[stars-url]: https://github.com/bigbugcc/OpenWrts/stargazers
-[issues-shield]: https://img.shields.io/github/issues/bigbugcc/OpenWrts?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/bigbugcc/OpenWrts
-[license-shield]: https://img.shields.io/github/license/bigbugcc/OpenWrts?style=flat-square
-[license-url]: https://github.com/bigbugcc/OpenWrts/blob/master/LICENSE
+[your-project-path]:https://github.com/jlqwer/OpenWrts/
+[contributors-shield]: https://img.shields.io/github/contributors/jlqwer/OpenWrts?style=flat-square
+[contributors-url]: https://github.com/jlqwer/OpenWrts/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jlqwer/OpenWrts?style=flat-square
+[forks-url]: https://github.com/jlqwer/OpenWrts/network/members
+[stars-shield]: https://img.shields.io/github/stars/jlqwer/OpenWrts?style=flat-square
+[stars-url]: https://github.com/jlqwer/OpenWrts/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jlqwer/OpenWrts?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/jlqwer/OpenWrts
+[license-shield]: https://img.shields.io/github/license/jlqwer/OpenWrts?style=flat-square
+[license-url]: https://github.com/jlqwer/OpenWrts/blob/main/LICENSE
