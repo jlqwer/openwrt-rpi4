@@ -12,22 +12,22 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/jlqwer/OpenWrts">
+  <a href="https://github.com/jlqwer/openwrt-rpi4">
     <img src="https://cdn.jsdelivr.net/gh/bigbugcc/Resource@master/github/openwrts/action1.jpg" alt="Logo" width="500" />
   </a>
 
   <h3 align="center">Openwrt/LEDE 云编译</h3>
   <p align="center">
-    👉 每天定时自动拉取Openwrt最新源码编译，自动发布到 [<a herf="https://github.com/jlqwer/OpenWrts/releases"> Releases </a>]👈
+    👉 每天定时自动拉取Openwrt最新源码编译，自动发布到 [<a herf="https://github.com/jlqwer/openwrt-rpi4/releases"> Releases </a>]👈
     <br />
-    <a href="https://github.com/jlqwer/OpenWrts"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://github.com/jlqwer/openwrt-rpi4"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/jlqwer/OpenWrts/releases">下载地址</a>
+    <a href="https://github.com/jlqwer/openwrt-rpi4/releases">下载地址</a>
     ·
-    <a href="https://github.com/jlqwer/OpenWrts/actions">Action</a>
+    <a href="https://github.com/jlqwer/openwrt-rpi4/actions">Action</a>
     ·
-    <a href="https://github.com/jlqwer/OpenWrts/issues">提出新特性</a>
+    <a href="https://github.com/jlqwer/openwrt-rpi4/issues">提出新特性</a>
   </p>
 
 </p>
@@ -55,7 +55,7 @@
 ## 支持的设备
 |           支持的设备        |         固类别         |        Action         |            状态          |              下载页          |
 | :------------------------: | :---------------------: | :-------------------: | :-------------------: | :--------------------------: |
-|             树莓派 4B             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/jlqwer/OpenWrts/actions/workflows/RaspberryPi4.yml) | ![RaspberryPi4](https://github.com/jlqwer/openwrts/actions/workflows/RaspberryPi4.yml/badge.svg) |  [✔](https://github.com/jlqwer/OpenWrts/releases) |
+|             树莓派 4B             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/jlqwer/openwrt-rpi4/actions/workflows/RaspberryPi4.yml) | ![RaspberryPi4](https://github.com/jlqwer/openwrt-rpi4/actions/workflows/RaspberryPi4.yml/badge.svg) |  [✔](https://github.com/jlqwer/openwrt-rpi4/releases) |
 
 <br>
 
@@ -83,19 +83,14 @@
 - AdGuard Home
 - Mentohust
 - luci-app-vssr   
-- luci-adbyby-plus
 - luci-app-unblockmusic
 - luci-app-ddns
-- luci-app-pushbot (全能推送)
 - luci-app-onliner
 - luci-app-ttyd
 - luci-app-turboacc
 - luci-app-upnp
-- luci-app-netdata
 - luci-usb-printer
 - luci-app-nps
-- luci-app-frpc
-- luci-app-n2n
 - luci-app-syncdial (多播插件)
 - luci-app-turboacc
 - luci-app-kms  
@@ -115,18 +110,9 @@ eg:
 ```
 filetree 
 ├── .github/workflows
-│  ├── R2S.yml
-│  ├── R4S.yml
-│  ├── RaspberryPi3.yml
 │  ├── RaspberryPi4.yml
-│  ├── x86_64.yml
-│  ├── update-checker.yml
 ├── /configs/ (配置文件目录)
-│  ├── R2S.config
-│  ├── R4S.config
-│  ├── RPi3.config
 │  ├── RPi4.config
-│  ├── x86_64.config
 ├── configure.sh (固件参数修改)
 ├── package.sh (luci-app)
 ```
@@ -158,7 +144,7 @@ filetree
 
 ## 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/jlqwer/OpenWrts/LICENSE)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/jlqwer/openwrt-rpi4/LICENSE)
 
 <br>
 
@@ -171,14 +157,14 @@ filetree
 - [luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon)
 
 <!-- links -->
-[your-project-path]:https://github.com/jlqwer/OpenWrts/
-[contributors-shield]: https://img.shields.io/github/contributors/jlqwer/OpenWrts?style=flat-square
-[contributors-url]: https://github.com/jlqwer/OpenWrts/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jlqwer/OpenWrts?style=flat-square
-[forks-url]: https://github.com/jlqwer/OpenWrts/network/members
-[stars-shield]: https://img.shields.io/github/stars/jlqwer/OpenWrts?style=flat-square
-[stars-url]: https://github.com/jlqwer/OpenWrts/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jlqwer/OpenWrts?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/jlqwer/OpenWrts
-[license-shield]: https://img.shields.io/github/license/jlqwer/OpenWrts?style=flat-square
-[license-url]: https://github.com/jlqwer/OpenWrts/blob/main/LICENSE
+[your-project-path]:https://github.com/jlqwer/openwrt-rpi4/
+[contributors-shield]: https://img.shields.io/github/contributors/jlqwer/openwrt-rpi4?style=flat-square
+[contributors-url]: https://github.com/jlqwer/openwrt-rpi4/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jlqwer/openwrt-rpi4?style=flat-square
+[forks-url]: https://github.com/jlqwer/openwrt-rpi4/network/members
+[stars-shield]: https://img.shields.io/github/stars/jlqwer/openwrt-rpi4?style=flat-square
+[stars-url]: https://github.com/jlqwer/openwrt-rpi4/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jlqwer/openwrt-rpi4?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/jlqwer/openwrt-rpi4
+[license-shield]: https://img.shields.io/github/license/jlqwer/openwrt-rpi4?style=flat-square
+[license-url]: https://github.com/jlqwer/openwrt-rpi4/blob/main/LICENSE
