@@ -111,6 +111,7 @@ eg:
 filetree 
 ├── .github/workflows
 │  ├── RaspberryPi4.yml
+│  ├── update-checker.yml
 ├── /configs/ (配置文件目录)
 │  ├── RPi4.config
 ├── configure.sh (固件参数修改)
