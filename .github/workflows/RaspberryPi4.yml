@@ -34,6 +34,7 @@ jobs:
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
+        curl -X POST -d 'secrets=${{ secrets.API_SECRET }}&step=1' https://api.jlqwer.com/Callback/GithubHooks/workflows
         sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
         sudo -E apt-get -qq update
         sudo -E apt-get -qq install $(curl -fsSL https://raw.githubusercontent.com/jlqwer/openwrt-rpi4/main/openwrt-env)
@@ -46,6 +47,7 @@ jobs:
     - name: Clone source code
       working-directory: /workdir
       run: |
+        curl -X POST -d 'secrets=${{ secrets.API_SECRET }}&step=2' https://api.jlqwer.com/Callback/GithubHooks/workflows
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
@@ -81,6 +83,7 @@ jobs:
     - name: Download package
       id: package
       run: |
+        curl -X POST -d 'secrets=${{ secrets.API_SECRET }}&step=3' https://api.jlqwer.com/Callback/GithubHooks/workflows
         cd openwrt
         make defconfig
         make download -j8
@@ -91,6 +94,7 @@ jobs:
     - name: Compile the firmware
       id: compile
       run: |
+        curl -X POST -d 'secrets=${{ secrets.API_SECRET }}&step=4' https://api.jlqwer.com/Callback/GithubHooks/workflows
         cd openwrt
         echo -e "$(nproc) thread compile"
         make -j$(nproc) || make -j2 || make -j1 V=s
@@ -130,6 +134,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
+        curl -X POST -d 'secrets=${{ secrets.API_SECRET }}&step=5' https://api.jlqwer.com/Callback/GithubHooks/workflows
         echo "::set-output name=release_tag::$(date +"%Y.%m.%d-%H%M")"
         touch release.txt
         echo "::set-output name=status::success"
